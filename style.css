@@ -1,0 +1,45 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --blue : #107185;
+    --lightb: #66DDF4;
+    --white: #f9f9fb;
+    --black: #314949;
+    --blacktr: #31494969;
+    --opal: #8AB9B5;
+    --bone: #C8C2AE;
+}
+
+.p-navbar{
+background-color: transparent;
+transition: all 0.5s;
+
+}
+
+.p-navbar .nav-link{
+    color: var(--black);
+    transition: all 0.5s;
+}
+
+.p-navbar .navbar-brand{
+    color: var(--blue);
+    transition: all 0.5s;
+}
+
+.p-navbar .p-nav-scrolled{
+    background-color: var(--black);
+    
+    }
+    
+.p-navbar .p-nav-scrolled .nav-link{
+    color: var(--bone);
+}
+
+.p-navbar .p-nav-scrolled .navbar-brand{
+    color: var(--bone);
+    transition: all 0.5s;
+}
+
+
