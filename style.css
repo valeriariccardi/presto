@@ -80,7 +80,7 @@ backdrop-filter: blur (5px);
 .masthead {
     height: 80vh;
     min-height: 500px;
-    background-image: url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-image: url('https://images.unsplash.com/photo-1462392246754-28dfa2df8e6b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,25 +107,6 @@ color: var(--white);
 }
 
 .p-card{
-    border: none;
-    background-color:var(--white);
-    border-radius: 0.8rem;
-    -webkit-box-shadow: 2px 7px 10px 4px rgba(49,73,73,0.89), 2px 11px 44px 12px rgba(49,73,73,0.53); 
-    box-shadow: 2px 7px 10px 4px rgba(49,73,73,0.89), 2px 11px 44px 12px rgba(49,73,73,0.53);
-    transition: all 0.35s;
-    height: 25rem;
-    width:25rem;
-    margin: 0px;
-}
-
-.p-card:hover{
-    border: none;
-    background-color:var(--white);
-    border-radius: 0.8rem;
-    -webkit-box-shadow: 0px 0px 10px 4px rgba(49,73,73,0.89), 2px 11px 44px 12px rgba(49,73,73,0.53); 
-    box-shadow: 0px 0px 10px 4px rgba(49,73,73,0.89), 2px 11px 44px 12px rgba(49,73,73,0.53);
-}
-
-.card-body .fa-arrow-circle-up{
-    color:var(--orange);
+    border:none;
+    background-color:var(--opal);
 }

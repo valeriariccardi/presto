@@ -63,31 +63,22 @@
       </div>
     </header>
         
-       <div class="container-fluid ms-5 mt-5">
-         <div class="row" >
-          
-           <div class="col-12 col-md-8">
-             <div class="row justify-content-center" id ="categories-wrapper">
-
-               
-
-             <!-- <div class="card p-card">
-              <div class="card-body">
-              
-                <h5 class="card-title mt-4 fs-2">${category}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link"><i class="fas fa-arrow-circle-up fs-2"></i></a>
-              
+       <div class="container">
+         <div class="row mt-5">
+           <div class="col-12">
+             
+              <div class="card p-card" style="width: 25rem; height: 25rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
-               
 
-             </div> -->
-            </div>
-           </div> 
-          
+             </div>
+           </div>
          </div>
-       </div>   
+       </div>
     
         
       <div style="height: 2000px;"></div>      
@@ -104,34 +95,7 @@
     -->
     <script src="./script.js"></script>
     <script>
-        let categoriesWrapper = document.querySelector('#categories-wrapper');
-
-        let categories = [
-          'Donna' , 'Uomo' , 'Bambino', 'Casa'
-        ];
-
-        categories.forEach(category =>{
-          let card = document.createElement('div')
-          card.classList.add('col-12' , 'col-xl-5', 'mb-5')
-          card.innerHTML = 
-          `   
-              <div class="card p-card">
-              <div class="card-body">
-              
-                <h5 class="card-title mt-4 fs-2">${category}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link"><i class="fas fa-arrow-circle-up fs-2"></i></a>
-              
-              </div>
-              </div>
-               
-
-             
-          `
-          categoriesWrapper.appendChild(card)
-        })
-        
+       
 
     </script>
   </body>
