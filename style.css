@@ -10,7 +10,7 @@
     --white: #f9f9fb;
     --black: #314949;
     --blacktr: #314949b4;
-    --opal: #8AB9B5;
+    --opal: #d8e2e1;
     --white: #ffffff;
 }
 
@@ -62,6 +62,7 @@ backdrop-filter: blur (5px);
 .btn-nav{
     color: var(--white);
     background-color: var(--orange) ;
+    border-radius: 0.8rem;
 }
 
 #p-nav-btn{
@@ -77,7 +78,7 @@ backdrop-filter: blur (5px);
 }
 
 .masthead {
-    height: 100vh;
+    height: 80vh;
     min-height: 500px;
     background-image: url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
     background-size: cover;
@@ -87,20 +88,44 @@ backdrop-filter: blur (5px);
     
   }
 
-
-
 header h1{
     color:var(--white); 
 }
 
+
+
 #btn-cta{
      font-size: 30px;
-    transition: all 0.5s;
+    transition: all 0.1s;
+    color: var(--white);
 }
 
 
 #btn-cta:hover{
  transform: scale(1.1);
- 
- 
+color: var(--white);
+}
+
+.p-card{
+    border: none;
+    background-color:var(--white);
+    border-radius: 0.8rem;
+    -webkit-box-shadow: 2px 7px 10px 4px rgba(49,73,73,0.89), 2px 11px 44px 12px rgba(49,73,73,0.53); 
+    box-shadow: 2px 7px 10px 4px rgba(49,73,73,0.89), 2px 11px 44px 12px rgba(49,73,73,0.53);
+    transition: all 0.35s;
+    height: 25rem;
+    width:25rem;
+    margin: 0px;
+}
+
+.p-card:hover{
+    border: none;
+    background-color:var(--white);
+    border-radius: 0.8rem;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(49,73,73,0.89), 2px 11px 44px 12px rgba(49,73,73,0.53); 
+    box-shadow: 0px 0px 10px 4px rgba(49,73,73,0.89), 2px 11px 44px 12px rgba(49,73,73,0.53);
+}
+
+.card-body .fa-arrow-circle-up{
+    color:var(--orange);
 }
