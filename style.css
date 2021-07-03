@@ -108,5 +108,34 @@ color: var(--white);
 
 .p-card{
     border:none;
-    background-color:var(--opal);
+    transition: all 0.3s;
+    width: 25rem; 
+    height: 40rem;
+    -webkit-box-shadow: 1px 4px 20px 2px #C4C4C4; 
+    box-shadow: 1px 4px 20px 2px #C4C4C4;   
+    
 }
+
+.p-card:hover{
+    border:none;
+    width: 25rem; 
+    height:40rem;
+    transform:scale(1.1);
+    transition: all 0.3s;
+}
+
+.btn-card{
+    color: var(--white);
+    background-color: var(--orange) ;
+    border-radius: 0.8rem;
+    border: none;
+}
+
+.btn-card:hover{
+    color: var(--white);
+    background-color: var(--orange) ;
+    border-radius: 0.8rem;
+    border: none;
+}
+
+
