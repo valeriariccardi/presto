@@ -55,13 +55,20 @@
         <div class="row h-100 align-items-center">
           <div class="col-12 text-center">
             <h1 class="fw-bolder display-2">Più Spazio al tuo Stile!</h1>
-            <p class="lead">A great starter layout for a landing page</p>
+            
             <button class="btn btn-nav fw-bold px-4"><span class="fs-3">Vendi subito</span><i id="btn-cta" class="fas fa-tshirt ms-3 "></i></button>
           </div>
         </div>
       
       </div>
     </header>
+
+    <div style="height: 120px;"></div>
+
+    <div class="row text-center mt-5">
+      <h1 class="fw-bolder display-4">Le nostre <span class="fst-italic cat-title">categorie</span> </h1>
+    </div>
+      <div class="container-fluid bg-custom">
         
        <div class="container">
          <div class="row mt-5 justify-content-around" id="categories-wrapper">
@@ -79,7 +86,7 @@
            </div>
          </div>
        </div>
-    
+      </div>
         
       <div style="height: 2000px;"></div>      
 
@@ -98,17 +105,22 @@
         let categoriesWrapper = document.querySelector('#categories-wrapper')
 
         let categories = [
-          'Scarpe' , 'Borse' , 'T-Shirt' , 'Jeans' , 'Vestiti' , 'Camicie'
+          { title:'Scarpe' , img:'https://picsum.photos/id/1/300/250'},
+          {title:'Borse' , img: 'https://picsum.photos/id/1/300/250'},
+          {title:'T-Shirt' , img:'https://picsum.photos/id/1/300/250'},
+           {title:'Jeans' , img:'https://picsum.photos/id/1/300/250'},
+           {title:'Vestiti' , img:'https://picsum.photos/id/1/300/250'},
+            {title:'Camicie' , img:'https://picsum.photos/id/1/300/250'},
         ];
        
         categories.forEach(category =>{
          let card = document.createElement('div')
-          card.classList.add('col-12','col-sm-6', 'col-md-6','col-lg-3', 'my-3', 'mx-4', 'd-flex', 'justify-content-center' ,'mt-5')
+          card.classList.add('col-12','col-md-6','col-lg-4', 'my-5','mt-5')
           card.innerHTML = `
-                  <div class="card p-card">
-                  <img src="https://images.unsplash.com/photo-1512374382149-233c42b6a83b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHNob2VzfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top " alt="...">
+                  <div class="card p-card" style="width:18rem;">
+                  <img src="${category.img}" class="card-img-top " alt="...">
                         <div class="card-body text-center">
-                          <h5 class="card-title h4 fs-3">${category}</h5>
+                          <h5 class="card-title h4 fs-3">${category.title}</h5>
                           <a href="#" class="btn btn-primary mt-3 fs-4 btn-card">Scopri di più</a>
                         </div>
                   `

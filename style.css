@@ -6,7 +6,8 @@
     --blue : #107185;
     --lightb: #66DDF4;
     --orange: #ff8500;
-    --orangetr: #ff8400bb;
+    --orangetr: #e0ddd5;
+    
     --white: #f9f9fb;
     --black: #314949;
     --blacktr: #314949b4;
@@ -109,19 +110,18 @@ color: var(--white);
 .p-card{
     border:none;
     transition: all 0.3s;
-    width: 25rem; 
-    height: 40rem;
     -webkit-box-shadow: 1px 4px 20px 2px #C4C4C4; 
     box-shadow: 1px 4px 20px 2px #C4C4C4;   
+     
+    
     
 }
 
 .p-card:hover{
     border:none;
-    width: 25rem; 
-    height:40rem;
     transform:scale(1.1);
     transition: all 0.3s;
+    
 }
 
 .btn-card{
@@ -138,4 +138,10 @@ color: var(--white);
     border: none;
 }
 
+.bg-custom{
+    background-color: var(--orangetr);
+}
 
+.cat-title{
+    color: var(--orange);
+}
