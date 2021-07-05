@@ -34,10 +34,10 @@
        
         categories.forEach(category =>{
          let card = document.createElement('div')
-          card.classList.add('col-12','col-md-6','col-lg-4', 'my-5','mt-2')
+          card.classList.add('col-12','col-md-6','col-lg-4', 'my-5','mt-2', 'd-flex', 'justify-content-center')
           card.innerHTML = `
                   <div data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                 class="card p-card" style="width:18rem;">
+                 class="card p-card" style="width:21rem ;">
                   
                         <div class="card-body text-center">
                           <h5 class="card-title h4 fs-3 fw-bold">${category.title}</h5>

@@ -177,3 +177,15 @@ color: var(--white);
 .btn-like:hover{
     background-color: var(--orangetr);
 }
+
+.btn-nav:hover{
+    color: var(--white);
+}
+
+/* .h-custom{
+    height: 700px;
+} */
+
+@media screen {
+    
+}
