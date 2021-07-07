@@ -182,11 +182,7 @@ color: var(--white);
 .btn-nav:hover{
     color: var(--white);
 }
-
-/* .h-custom{
-    height: 700px;
-} */
-
-@media screen {
-    
-}
+ .altbk{
+     height: 600px !important;
+     width: 1500px  !important;
+ }
