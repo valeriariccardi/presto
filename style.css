@@ -182,7 +182,19 @@ color: var(--white);
 .btn-nav:hover{
     color: var(--white);
 }
- .altbk{
-     height: 600px !important;
-     width: 1500px  !important;
- }
+
+.card-ps{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    border: none;
+    background-color: transparent;   
+}
+
+.gradientimg{
+
+ opacity: 0.5;
+}
+  
+
+
