@@ -12,7 +12,9 @@
     --black: #314949;
     --blacktr: #314949b4;
     --opal: #d8e2e1;
+    --opallight: #e6f0e6;
     --white: #ffffff;
+    --dark: #000000;
 
 }
 
@@ -196,4 +198,14 @@ color: var(--white);
  opacity: 0.7;
 }
 
+.tc-white{
+    color: var(--white)
+}
+ 
+.p-bg-black{
+     background-color: var(--dark);
+}
 
+.bg-custom-ads{
+    background-color: var(--opallight);
+}
